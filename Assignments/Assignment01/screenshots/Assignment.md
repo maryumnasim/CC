@@ -19,19 +19,19 @@ Student Name:Maryum Nasim
 ## 2. Summary of Tasks & Commands Executed
 
 ### Task 1: Gitea Setup & First Push
-- **Environment:** Ubuntu Server (`fatimajaleel@ubuntu`)
+- **Environment:** Ubuntu Server (`maryumnasim@ubuntu`)
 - **Key Commands:**
   ```bash
   sudo apt update && sudo apt install -y docker.io curl
   docker compose up -d
   curl -sS -o /dev/null -w "Gitea HTTP status: %{http_code}\n" [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
-  git remote add gitea [http://fatimajaleel@127.0.0.1:3000/fatimajaleel/Assignment01.git](http://fatimajaleel@127.0.0.1:3000/fatimajaleel/Assignment01.git)
+  git remote add gitea [http://maryumnasim@127.0.0.1:3000/maryumnasim/Assignment01.git](http://maryumnasim@127.0.0.1:3000/maryumnasim/Assignment01.git)
   git push -u gitea main
   Task 2: GitHub Dual Remote Configuration
 Key Commands:
 
 Task 2: GitHub Dual Remote Configuration
-git remote add github [https://github.com/fatimajaleel/Assignment01.git](https://github.com/maryumnasim/Assignment01.git)
+git remote add github [https://github.com/maryumnasim/Assignment01.git](https://github.com/maryumnasim/Assignment01.git)
 git remote -v
 git push -u github main
 Task 3: Git LFS File Tracking
@@ -45,7 +45,7 @@ git push github main
 Task 4: GitHub Pages Portfolio
 Repository: maryumnasim.github.io
 
-Live Site URL: https://fatimajaleel.github.io/
+Live Site URL: https://maryumnasim.github.io/
 
 3. Evidence Screenshots Index
 task1_gitea_running.png - Docker compose ps status and HTTP 200 verification for Gitea.
@@ -66,7 +66,7 @@ task3_lfs_files.png - Output of git lfs ls-files --size showing three 100+ MiB .
 
 task3_lfs_push.png - Terminal output confirming 100% (3/3) LFS object upload to GitHub.
 
-task4_pages_repository.png - Browser view of fatimajaleel.github.io with index.html and styles.css.
+task4_pages_repository.png - Browser view of maryumnasim.github.io with index.html and styles.css.
 
 task4_pages_deployment.png - GitHub Pages settings page showing live deployment banner.
 
@@ -81,7 +81,7 @@ task4_portfolio_live.png - Rendered portfolio page at https://maryumnasim.github
 
 [x] All 12 .png screenshots present in CC/Assignments/Assignment01/screenshots/.
 
-[x] Repositories (CC, Assignment01, fatimajaleel.github.io) set to Public on GitHub.
+[x] Repositories (CC, Assignment01, maryumnasim.github.io) set to Public on GitHub.
 
 
 3. **Paste into GitHub and save:**
