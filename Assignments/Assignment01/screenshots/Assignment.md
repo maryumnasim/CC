@@ -1,6 +1,6 @@
 # Assignment 01: Git, Gitea, GitHub, Git LFS, and GitHub Pages
 
-**Student Name:**Maryum Nasim  
+Student Name:**Maryum Nasim  
 **Registration No:** FA24B1-SE-082  
 **Course:** Cloud Computing / Software Engineering  
 **Submission Repository:** CC  
@@ -31,7 +31,7 @@
 Key Commands:
 
 Task 2: GitHub Dual Remote Configuration
-git remote add github [https://github.com/fatimajaleel/Assignment01.git](https://github.com/fatimajaleel/Assignment01.git)
+git remote add github [https://github.com/fatimajaleel/Assignment01.git](https://github.com/maryumnasim/Assignment01.git)
 git remote -v
 git push -u github main
 Task 3: Git LFS File Tracking
@@ -43,7 +43,7 @@ git lfs track "*.bin"
 git lfs ls-files --size
 git push github main
 Task 4: GitHub Pages Portfolio
-Repository: fatimajaleel.github.io
+Repository: maryumnasim.github.io
 
 Live Site URL: https://fatimajaleel.github.io/
 
@@ -70,7 +70,7 @@ task4_pages_repository.png - Browser view of fatimajaleel.github.io with index.h
 
 task4_pages_deployment.png - GitHub Pages settings page showing live deployment banner.
 
-task4_portfolio_live.png - Rendered portfolio page at https://fatimajaleel.github.io/.
+task4_portfolio_live.png - Rendered portfolio page at https://maryumnasim.github.io/.
 
 4. Final Submission Checklist
 [x] Completed assignment individually.
