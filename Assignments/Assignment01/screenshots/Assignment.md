@@ -1,6 +1,6 @@
 # Assignment 01: Git, Gitea, GitHub, Git LFS, and GitHub Pages
 
-Student Name:**Maryum Nasim  
+Student Name:Maryum Nasim  
 **Registration No:** FA24B1-SE-082  
 **Course:** Cloud Computing / Software Engineering  
 **Submission Repository:** CC  
